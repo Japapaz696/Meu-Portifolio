@@ -57,6 +57,7 @@ body{
    left: 400px;
 }
 p{
+    font-size: 18px;
   width: 400px; 
   float: right;
   margin-right: 10px;
