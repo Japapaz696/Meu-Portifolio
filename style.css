@@ -1,0 +1,64 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    
+}
+#conteudo{
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: auto;
+    width: 650px;
+    height: 500px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-image: linear-gradient(to right,#7c7dc0,#6466e9,#5456d6,#3d3e8a);
+    
+
+    
+
+}
+#cima{
+    font-size: 150px;
+    position: relative;
+    top: 60px;
+    
+
+}
+#baixo{
+    font-size: 150px;
+}
+#icones{
+    position: relative;
+    left: 10px;
+}
+#git{
+    width: 20px;
+   position: relative;
+   bottom: 220px;
+   left: 250px;
+}
+#link{
+    width: 20px;
+   position: relative;
+   bottom: 286px;
+   left: 325px;
+}
+#file{
+    width: 20px;
+   position: relative;
+   bottom: 353px;
+   left: 400px;
+}
+p{
+  width: 400px; 
+  float: right;
+  margin-right: 10px;
+ font-family: 'Times New Roman', Times, serif;
+}
