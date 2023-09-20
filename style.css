@@ -4,34 +4,31 @@
     padding: 0px;
 }
 body{
-    margin: 100%;
     background-image: url(imagens/blue_-_22908\ \(Original\).mp4);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    
 }
-#myVideo {
+    
+#myVideo{
     position: fixed;
-    left: 0;
+    right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+}
+#conteiner{
+    position: relative;
+    margin: auto;
     
-  }
-#conteudo{
+}
+#conteudo1{
     border-radius: 10px;
     margin: auto;
+    margin-top: 30px;
     width: 650px;
     height: 500px;
-    position: absolute;
-    top: 5%;
-    left: 30%;
     background-image: linear-gradient(to right,#5b5ca3,#494bc7,#3e40b6,#282970);
     box-shadow: 60px black ;
-    
-
-    
-
 }
 #cima{
     font-size: 150px;
@@ -45,7 +42,8 @@ body{
 }
 #icones{
     position: relative;
-    left: 10px;
+    left: 15px;
+    
 }
 #git{
     width: 20px;
@@ -74,10 +72,16 @@ body{
    bottom: 353px;
    left: 400px;
 }
-p{
+#palavras{
     font-size: 18px;
   width: 400px; 
   float: right;
   margin-right: 10px;
  font-family: 'Times New Roman', Times, serif;
+}
+#mim{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 200px;
 }
