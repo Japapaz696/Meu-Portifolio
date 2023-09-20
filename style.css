@@ -12,7 +12,7 @@ body{
 }
 #myVideo {
     position: fixed;
-    left: 0px;
+    left: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
@@ -24,7 +24,7 @@ body{
     width: 650px;
     height: 500px;
     position: absolute;
-    top: 20%;
+    top: 5%;
     left: 30%;
     background-image: linear-gradient(to right,#5b5ca3,#494bc7,#3e40b6,#282970);
     box-shadow: 60px black ;
@@ -52,6 +52,15 @@ body{
    position: relative;
    bottom: 220px;
    left: 250px;
+}
+#git:hover{
+    transform: scale(1.1);
+}
+#link:hover{
+    transform: scale(1.1);
+}
+#file:hover{
+    transform: scale(1.1);
 }
 #link{
     width: 20px;
